@@ -1,4 +1,4 @@
-var sodium = require('sodium-universal')
+var sodium = require('sodium-javascript')
 var rand = require('.')
 
 var len = 23

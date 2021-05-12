@@ -1,7 +1,7 @@
 'use strict'
 
 var assert = require('nanoassert')
-var sodium = require('sodium-universal')
+var sodium = require('sodium-javascript')
 
 module.exports = function (limit) {
   assert.ok(limit > 0n, 'limit must be larger than 0')
